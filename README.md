@@ -43,7 +43,7 @@ To get started with StylAI, follow the steps below:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/StylAI.git
+git clone https://github.com/StylWebDev/StylAI.git
 ```
 
 2. Navigate to the project directory:
