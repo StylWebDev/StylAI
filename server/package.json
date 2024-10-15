@@ -1,0 +1,31 @@
+{
+  "name": "ai-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node --watch app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "AI",
+    "API",
+    "Server",
+    "Express"
+  ],
+  "author": "Stylianou Konstantinos",
+  "license": "ISC",
+  "description": "A RESTFul API Server Which Provides AI Answers",
+  "dependencies": {
+    "@milcondev/free-ai": "^5.1.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "http-status": "^1.7.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

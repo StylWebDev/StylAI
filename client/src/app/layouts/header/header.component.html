@@ -1,0 +1,16 @@
+<header flex-wrap justify="around" items="center" class="py-2 bg-eggplant-950">
+  <div flex-wrap gapX="2.5" items="center">
+    <img class="size-16" src="robot2.png" alt="Logo">
+    <p class="text-2xl capitalize font-bold text-pink-500 cursor-default">StylAI</p>
+  </div>
+  <div flex-wrap gapX="1.5">
+    @for (route of routes; track route.id) {
+      <a [routerLink]="route.href"
+         class="text-xl font-semibold"
+         routerLinkActive="text-pink-500"
+         [routerLinkActiveOptions]="{ exact: true }"
+      >{{route.name}}</a>
+    }
+  </div>
+</header>
+

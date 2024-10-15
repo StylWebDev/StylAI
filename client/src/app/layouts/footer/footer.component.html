@@ -1,0 +1,16 @@
+<footer flex-wrap justify="around" items="center" class="py-2 bg-eggplant-950 w-screen">
+<div flex-wrap gapX="2.5" items="center">
+  <img class="size-12" src="logo2.svg" alt="Logo">
+  <div flex-wrap [column]="true" items="start">
+    <p class="text-xs capitalize text-pink-500 cursor-default">Copyright</p>
+    <p class="text-xs capitalize text-pink-500 cursor-default">©Konstantinos Stylianou</p>
+  </div>
+
+</div>
+<div flex-wrap gapX="1.5">
+  @for (media of social; track $index) {
+    <a class="hover:brightness-150 transition-all duration-500 ease-in" target="_blank" [href]="media.href"
+    ><img [src]="media.img" [alt]="media.name" [title]="media.name" ></a>
+  }
+</div>
+</footer>
