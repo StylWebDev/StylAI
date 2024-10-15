@@ -98,4 +98,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-We hope you enjoy using **StylAI** as your smart, conversational AI assistant! For any queries, feel free to reach out to us at support@stylai.com.
+We hope you enjoy using **StylAI** as your smart, conversational AI assistant! For any queries, feel free to reach out to us at stylsbot@gmail.com.
