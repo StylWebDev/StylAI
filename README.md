@@ -94,7 +94,8 @@ Feel free to contribute to StylAI by submitting issues, feature requests, or pul
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MPL 2.0 License. See the [MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/) file for more details.
+
 
 ---
 
